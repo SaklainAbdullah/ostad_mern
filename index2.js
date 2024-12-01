@@ -8,7 +8,7 @@ async function createProduct(){
         headers: {'Content-TType':'application/json'},
         body: JSON.stringify(body)
     });
-    const data = await res.json()
+    const data =  await res.json()
     console.log(data)
 }
 createProduct()
